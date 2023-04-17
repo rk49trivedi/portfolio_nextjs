@@ -1,0 +1,207 @@
+{
+  "index-2.js -> @/src/components/Clients": {
+    "id": 3693,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/74.cc6491c59d255d56.js"
+    ]
+  },
+  "index-2.js -> @/src/components/Education": {
+    "id": 188,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/887.fdd1d6e2b502cee3.js"
+    ]
+  },
+  "index-2.js -> @/src/components/Experience": {
+    "id": 236,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/50.9d6d79b80af7cc54.js"
+    ]
+  },
+  "index-2.js -> @/src/components/Pricing": {
+    "id": 9891,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/891.020bc32aac391cf9.js"
+    ]
+  },
+  "index-2.js -> @/src/components/Testimonials": {
+    "id": 33,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/126.6faf17e194f3e772.js"
+    ]
+  },
+  "index-2.js -> @/src/components/Works": {
+    "id": 3771,
+    "files": [
+      "static/chunks/391.c6eeca109a092ca1.js",
+      "static/chunks/588.b8ee2e91f7e9d106.js"
+    ]
+  },
+  "index-3.js -> @/src/components/Clients": {
+    "id": 3693,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/74.cc6491c59d255d56.js"
+    ]
+  },
+  "index-3.js -> @/src/components/Education": {
+    "id": 188,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/887.fdd1d6e2b502cee3.js"
+    ]
+  },
+  "index-3.js -> @/src/components/Experience": {
+    "id": 236,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/50.9d6d79b80af7cc54.js"
+    ]
+  },
+  "index-3.js -> @/src/components/Pricing": {
+    "id": 9891,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/891.020bc32aac391cf9.js"
+    ]
+  },
+  "index-3.js -> @/src/components/Testimonials": {
+    "id": 33,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/126.6faf17e194f3e772.js"
+    ]
+  },
+  "index-3.js -> @/src/components/Works": {
+    "id": 3771,
+    "files": [
+      "static/chunks/391.c6eeca109a092ca1.js",
+      "static/chunks/588.b8ee2e91f7e9d106.js"
+    ]
+  },
+  "index-slider.js -> @/src/components/Clients": {
+    "id": 3693,
+    "files": [
+      "static/chunks/693.47a318841c11c9b6.js"
+    ]
+  },
+  "index-slider.js -> @/src/components/Education": {
+    "id": 188,
+    "files": [
+      "static/chunks/188.f3c7d9881d6e2967.js"
+    ]
+  },
+  "index-slider.js -> @/src/components/Experience": {
+    "id": 236,
+    "files": [
+      "static/chunks/236.46adc49174280301.js"
+    ]
+  },
+  "index-slider.js -> @/src/components/Pricing": {
+    "id": 9891,
+    "files": [
+      "static/chunks/766.6f0238bc04059af8.js"
+    ]
+  },
+  "index-slider.js -> @/src/components/Testimonials": {
+    "id": 33,
+    "files": [
+      "static/chunks/33.d0b64f9ab040371d.js"
+    ]
+  },
+  "index-slider.js -> @/src/components/Works": {
+    "id": 3771,
+    "files": [
+      "static/chunks/391.c6eeca109a092ca1.js",
+      "static/chunks/588.b8ee2e91f7e9d106.js"
+    ]
+  },
+  "index-video.js -> @/src/components/Clients": {
+    "id": 3693,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/74.cc6491c59d255d56.js"
+    ]
+  },
+  "index-video.js -> @/src/components/Education": {
+    "id": 188,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/887.fdd1d6e2b502cee3.js"
+    ]
+  },
+  "index-video.js -> @/src/components/Experience": {
+    "id": 236,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/50.9d6d79b80af7cc54.js"
+    ]
+  },
+  "index-video.js -> @/src/components/Pricing": {
+    "id": 9891,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/891.020bc32aac391cf9.js"
+    ]
+  },
+  "index-video.js -> @/src/components/Testimonials": {
+    "id": 33,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/126.6faf17e194f3e772.js"
+    ]
+  },
+  "index-video.js -> @/src/components/Works": {
+    "id": 3771,
+    "files": [
+      "static/chunks/391.c6eeca109a092ca1.js",
+      "static/chunks/588.b8ee2e91f7e9d106.js"
+    ]
+  },
+  "index.js -> @/src/components/Clients": {
+    "id": 3693,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/74.cc6491c59d255d56.js"
+    ]
+  },
+  "index.js -> @/src/components/Education": {
+    "id": 188,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/887.fdd1d6e2b502cee3.js"
+    ]
+  },
+  "index.js -> @/src/components/Experience": {
+    "id": 236,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/50.9d6d79b80af7cc54.js"
+    ]
+  },
+  "index.js -> @/src/components/Pricing": {
+    "id": 9891,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/891.020bc32aac391cf9.js"
+    ]
+  },
+  "index.js -> @/src/components/Testimonials": {
+    "id": 33,
+    "files": [
+      "static/chunks/719-58e1da9e63861cea.js",
+      "static/chunks/126.6faf17e194f3e772.js"
+    ]
+  },
+  "index.js -> @/src/components/Works": {
+    "id": 3771,
+    "files": [
+      "static/chunks/391.c6eeca109a092ca1.js",
+      "static/chunks/588.b8ee2e91f7e9d106.js"
+    ]
+  }
+}
