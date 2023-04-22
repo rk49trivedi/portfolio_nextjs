@@ -27,18 +27,19 @@ const Pricing = dynamic(() => import("@/src/components/Pricing"), {
 const Testimonials = dynamic(() => import("@/src/components/Testimonials"), {
   ssr: false,
 });
-const Index = () => {
+const Index2 = () => {
   return (
     <Layout>
       {/* Background */}
       <div className="background-bg">
-        <div className="background-filter">
+        <div className="background-filter circle">
           <div
             className="background-img"
-            style={{ backgroundImage: "url(images/man.jpg)" }}
+            style={{ backgroundImage: "url(images/girl3.jpg)" }}
           />
         </div>
       </div>
+
       {/* sections */}
       <Started />
       <About />
@@ -50,10 +51,9 @@ const Index = () => {
       <LanguagesSkills />
       <CodingSkills />
       <Testimonials />
-      <Clients />
       <Works />
       <Contacts />
     </Layout>
   );
 };
-export default Index;
+export default Index2;

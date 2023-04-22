@@ -16,14 +16,26 @@ const Experience = () => {
               <div className="resume-item active">
                 <div className="date">Present</div>
                 <div className="name">
-                  The Turin <br />
-                  Olympics
+                  Classicsoft <br />
+                  Web technology
                 </div>
                 <div className="single-post-text">
                   <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
+                  I have acquired extensive experience in HTML, CSS, WordPress, and WordPress plugin development, which I credit to my tenure at Classicsoft Company. Currently, I hold the position of Senior Web Developer at the aforementioned organization.
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="item">
+              <div className="resume-item">
+                <div className="date">2018-2020</div>
+                <div className="name">
+                  Santushti <br />
+                  infotech
+                </div>
+                <div className="single-post-text">
+                  <p>
+                  Santushti Infotech Private Limited is a private company where I gained valuable experience and developed my skills in Laravel and Codeigniter frameworks.
                   </p>
                 </div>
               </div>
@@ -32,66 +44,18 @@ const Experience = () => {
               <div className="resume-item">
                 <div className="date">2016-2018</div>
                 <div className="name">
-                  Red <br />
-                  Drifting
+                  
+                Erudite <br />
+                Technologies
                 </div>
                 <div className="single-post-text">
                   <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
+                  This is my initial employment opportunity following college completion, during which I received fundamental training in HTML, CSS, and PHP. As a result of my unwavering commitment and diligent efforts, the company graciously extended me an offer for a permanent position within a mere 6-month timeframe.
                   </p>
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="item">
-              <div className="resume-item">
-                <div className="date">2014-2016</div>
-                <div className="name">
-                  World <br />
-                  Economy
-                </div>
-                <div className="single-post-text">
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="item">
-              <div className="resume-item">
-                <div className="date">2012-2014</div>
-                <div className="name">
-                  Art Director <br />
-                  Facebook
-                </div>
-                <div className="single-post-text">
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="item">
-              <div className="resume-item">
-                <div className="date">2010-2012</div>
-                <div className="name">
-                  Art Director <br />
-                  Facebook
-                </div>
-                <div className="single-post-text">
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
+            
           </Swiper>
           {/* navigation */}
           <div className="navs">

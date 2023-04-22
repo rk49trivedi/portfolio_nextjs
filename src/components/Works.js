@@ -57,45 +57,55 @@ const Works = () => {
             </div>
             <div className="btn-group">
               <label
-                className={`c-pointer ${activeBtn("f-video")}`}
-                onClick={handleFilterKeyChange("f-video")}
-                data-text="Video"
+                className={`c-pointer ${activeBtn("f-business")}`}
+                onClick={handleFilterKeyChange("f-business")}
+                data-text="Business"
               >
-                <input type="radio" name="fl_radio" defaultValue=".f-video" />
-                Video
+                <input type="radio" name="fl_radio" defaultValue=".f-business" />
+                Business
               </label>
             </div>
             <div className="btn-group">
               <label
-                className={`c-pointer ${activeBtn("f-music")}`}
-                onClick={handleFilterKeyChange("f-music")}
-                data-text="Music"
+                className={`c-pointer ${activeBtn("f-company")}`}
+                onClick={handleFilterKeyChange("f-company")}
+                data-text="company"
               >
-                <input type="radio" name="fl_radio" defaultValue=".f-music" />
-                Music
+                <input type="radio" name="fl_radio" defaultValue=".f-company" />
+                IT company
               </label>
             </div>
             <div className="btn-group">
               <label
-                className={`c-pointer ${activeBtn("f-links")}`}
-                onClick={handleFilterKeyChange("f-links")}
-                data-text="Links"
+                className={`c-pointer ${activeBtn("f-portfolio")}`}
+                onClick={handleFilterKeyChange("f-portfolio")}
+                data-text="portfolio"
               >
-                <input type="radio" name="fl_radio" defaultValue=".f-links" />
-                Links
+                <input type="radio" name="fl_radio" defaultValue=".f-portfolio" />
+                Portfolio
               </label>
             </div>
             <div className="btn-group">
               <label
-                className={`c-pointer ${activeBtn("f-image")}`}
-                onClick={handleFilterKeyChange("f-image")}
-                data-text="Image"
+                className={`c-pointer ${activeBtn("f-estate")}`}
+                onClick={handleFilterKeyChange("f-estate")}
+                data-text="estate"
               >
-                <input type="radio" name="fl_radio" defaultValue=".f-image" />
-                Image
+                <input type="radio" name="fl_radio" defaultValue=".f-estate" />
+                Real Estate
               </label>
             </div>
             <div className="btn-group">
+              <label
+                className={`c-pointer ${activeBtn("f-galleryplugin")}`}
+                onClick={handleFilterKeyChange("f-galleryplugin")}
+                data-text="galleryplugin"
+              >
+                <input type="radio" name="fl_radio" defaultValue=".f-galleryplugin" />
+                Gallery Plugin
+              </label>
+            </div>
+            {/* <div className="btn-group">
               <label
                 className={`c-pointer ${activeBtn("f-gallery")}`}
                 onClick={handleFilterKeyChange("f-gallery")}
@@ -104,8 +114,8 @@ const Works = () => {
                 <input type="radio" name="fl_radio" defaultValue=".f-gallery" />
                 Gallery
               </label>
-            </div>
-            <div className="btn-group">
+            </div> */}
+            {/* <div className="btn-group">
               <label
                 className={`c-pointer ${activeBtn("f-content")}`}
                 onClick={handleFilterKeyChange("f-content")}
@@ -114,12 +124,12 @@ const Works = () => {
                 <input type="radio" name="fl_radio" defaultValue=".f-content" />
                 Content
               </label>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* portfolio items */}
         <div className="box-items">
-          <div className="box-col f-gallery">
+          {/* <div className="box-col f-gallery">
             <div className="box-item">
               <div className="image">
                 <a href="#gallery-1" className="has-popup-gallery">
@@ -146,8 +156,8 @@ const Works = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="box-col f-video">
+          </div> */}
+          {/* <div className="box-col f-video">
             <div className="box-item">
               <div className="image">
                 <a
@@ -174,12 +184,12 @@ const Works = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="box-col f-image">
+          </div> */}
+          {/* <div className="box-col f-image">
             <div className="box-item">
               <div className="image">
-                <a href="images/works/work7.jpg" className="has-popup-image">
-                  <img src="images/works/work7.jpg" alt="" />
+                <a href="images/works/work1.jpg" className="has-popup-image">
+                  <img src="images/works/work1.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -195,12 +205,39 @@ const Works = () => {
                   href="images/works/work7.jpg"
                   className="name has-popup-image"
                 >
-                  White Rose Photo
+                  Portfolio
+                </a>
+              </div>
+            </div>
+          </div> */}
+
+          <div className="box-col f-portfolio">
+            <div className="box-item">
+              <div className="image">
+                <a
+                  href="https://roshan-trivedi-portfolio.pages.dev/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work1.jpg" alt="" />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <i className="icon fas fa-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Portfolio</div>
+                <a href="https://roshan-trivedi-portfolio.pages.dev/" target="_blank" className="name has-popup-link">
+                  Portfolio website
                 </a>
               </div>
             </div>
           </div>
-          <div className="box-col f-image">
+          <div className="box-col f-company">
             <div className="box-item">
               <div className="image">
                 <a href="images/works/work4.jpg" className="has-popup-image">
@@ -215,17 +252,68 @@ const Works = () => {
                 </a>
               </div>
               <div className="desc">
-                <div className="category">Image</div>
+                <div className="category">IT company</div>
                 <a
                   href="images/works/work4.jpg"
                   className="name has-popup-image"
                 >
-                  Honest Company
+                  Logo Bakery Company
                 </a>
               </div>
             </div>
           </div>
-          <div className="box-col f-gallery">
+          <div className="box-col f-estate">
+            <div className="box-item">
+              <div className="image">
+                <a
+                  href="https://thekanu.in/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work5.jpg" alt="" />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <i className="icon fas fa-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Business</div>
+                <a href="https://thekanu.in/" target="_blank" className="name has-popup-link">
+                  Real Estate Property Site
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="box-col f-company">
+            <div className="box-item">
+              <div className="image">
+                <a href="images/works/work2.jpg" className="has-popup-image">
+                  <img src="images/works/work2.jpg" alt="" />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <i className="icon fas fa-image" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">IT company</div>
+                <a
+                  href="images/works/work2.jpg"
+                  className="name has-popup-image"
+                >
+                  Twins Logo Degign Company
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* <div className="box-col f-gallery">
             <div className="box-item">
               <div className="image">
                 <a href="#gallery-2" className="has-popup-gallery">
@@ -239,8 +327,8 @@ const Works = () => {
                   </span>
                 </a>
                 <div id="gallery-2" className="mfp-hide">
-                  <a href="images/works/work5.jpg" />
                   <a href="images/works/work2.jpg" />
+                  <a href="images/works/work3.jpg" />
                   <a href="images/works/work3.jpg" />
                   <a href="images/works/work4.jpg" />
                 </div>
@@ -252,8 +340,8 @@ const Works = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="box-col f-music">
+          </div> */}
+          {/* <div className="box-col f-music">
             <div className="box-item">
               <div className="image">
                 <a
@@ -280,12 +368,12 @@ const Works = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="box-col f-links">
+          </div> */}
+          <div className="box-col f-business">
             <div className="box-item">
               <div className="image">
                 <a
-                  href="https://beshley.com/"
+                  href="https://lokx.ai/"
                   className="has-popup-link"
                   target="_blank"
                 >
@@ -300,14 +388,96 @@ const Works = () => {
                 </a>
               </div>
               <div className="desc">
-                <div className="category">Links</div>
-                <a href="https://beshley.com/" className="name has-popup-link">
-                  Black Car
+                <div className="category">Business</div>
+                <a href="https://lokx.ai/" target="_blank" className="name has-popup-link">
+                  WOSB Business Website
                 </a>
               </div>
             </div>
           </div>
-          <div className="box-col f-content">
+
+          <div className="box-col f-galleryplugin">
+            <div className="box-item">
+              <div className="image">
+                <a
+                  href="https://www.tdsreisen.de/anthyllion-villa-lefokastro-pilion/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work7.jpg" alt="" />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <i className="icon fas fa-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Plugin</div>
+                <a href="https://www.tdsreisen.de/anthyllion-villa-lefokastro-pilion/" target="_blank" className="name has-popup-link">
+                  Gallery Plugin
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="box-col f-business">
+            <div className="box-item">
+              <div className="image">
+                <a
+                  href="https://www.39k.group/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work8.jpg" alt="" />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <i className="icon fas fa-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Business</div>
+                <a href="https://www.39k.group/" target="_blank" className="name has-popup-link">
+                  Business Website
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="box-col f-galleryplugin">
+            <div className="box-item">
+              <div className="image">
+                <a
+                  href="https://www.hyvesthomes.com/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work6.jpg" alt="" />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <i className="icon fas fa-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Plugin</div>
+                <a href="https://www.hyvesthomes.com/" target="_blank" className="name has-popup-link">
+                  Wordpress Gallery Plugin
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="box-col f-content">
             <div className="box-item">
               <div className="image">
                 <a href="#popup-1" className="has-popup-media">
@@ -352,7 +522,7 @@ const Works = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="clear" />
       </div>

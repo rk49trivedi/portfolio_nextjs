@@ -2568,8 +2568,8 @@
 
 .contact-info {
 	padding: 30px;
-	float: right;
-	width: 50%;
+	float: left;
+	width: 100%;
 	min-height: 482px;
 	border: 1px solid #585d65;
 	border-radius: 30px;

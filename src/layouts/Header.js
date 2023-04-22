@@ -5,7 +5,7 @@ import { activeSection, stickyNav } from "../utils";
 const Menu = () => (
   <ul className="menu">
     <li className="menu-item current-menu-item ">
-      <a href="/index-3">
+      <a href="/">
         <span className="animated-button">
           <span>Home</span>
         </span>
@@ -39,7 +39,7 @@ const Menu = () => (
         </span>
       </a>
     </li>
-    <li className="menu-item menu-item-has-children">
+    {/* <li className="menu-item menu-item-has-children">
       <Link legacyBehavior href="/blog">
         <a>
           <span className="animated-button">
@@ -59,7 +59,7 @@ const Menu = () => (
           </Link>
         </li>
       </ul>
-    </li>
+    </li> */}
   </ul>
 );
 
@@ -84,8 +84,8 @@ const DaskTopHeader = () => (
       <a href="#">
         <img className="logo-img" src="images/logo.png" alt="" />
         <span className="logo-lnk">
-          Joé <br />
-          Wilson
+          Roshan <br />
+          Trivedi
         </span>
       </a>
     </div>
@@ -122,8 +122,8 @@ const MobileHeader = () => {
         <a href="#">
           <img className="logo-img" src="images/logo.png" alt="" />
           <span className="logo-lnk">
-            Joé <br />
-            Wilson
+            Roshan <br />
+            Trivedi
           </span>
         </a>
       </div>

@@ -7,8 +7,8 @@ const Started = () => {
         <div className="vertical-center">
           {/* title */}
           <h1 className="h-title">
-            Joé <br />
-            Wilson
+            Roshan <br />
+            Trivedi
           </h1>
           {/* content started */}
           <div className="started-content">
@@ -21,12 +21,12 @@ const Started = () => {
             </div>
             {/* text */}
             <div className="h-text">
-              Hello! I am Web Developer from United States, New York. I have
+              Hello! I am Web Developer from Gujarat, India. I have
               rich experience in web site design and building, also I am good at
               wordpress. I love to talk with you about our unique.
             </div>
             {/* button */}
-            <a href="#" className="btn">
+            <a href="https://www.fiverr.com/mh49trivedi" className="btn">
               <span className="animated-button">
                 <span>Contact Me</span>
               </span>

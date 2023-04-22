@@ -14,84 +14,47 @@ const Education = () => {
           <Swiper {...sliderProps.education}>
             <SwiperSlide className="item">
               <div className="resume-item active">
-                <div className="date">2011-2012</div>
+                <div className="date">1999-2008</div>
                 <div className="name">
-                  Art University <br />
-                  New York
+                  Jay Vijay school <br />
+                  India
                 </div>
                 <div className="single-post-text">
                   <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
+                  I pursued my education up to S.S.C from this Gujarati medium school and achieved a score of 72% on the S.S.C exam.
                   </p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className="item">
               <div className="resume-item">
-                <div className="date">2010-2011</div>
+                <div className="date">2009-2011</div>
                 <div className="name">
-                  Programming Course <br />
-                  Paris
+                  Sarvodaya  <br />
+                  science school
                 </div>
                 <div className="single-post-text">
                   <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
+                  After completing my secondary school education (S.S.C), I began my higher secondary education (H.S.C) at Sarvodaya Science School, where I pursued Mathematics and achieved a 60% pass rate. 
                   </p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className="item">
               <div className="resume-item">
-                <div className="date">2009-2010</div>
+                <div className="date">2012-2015</div>
                 <div className="name">
-                  Web Design Course <br />
-                  London
+                  B.H Gardi collage <br />
+                  India
                 </div>
                 <div className="single-post-text">
                   <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
+                  After completing my Higher Secondary Education, I was accepted into B.H. Gardi College for a Bachelor of Engineering degree in Computer Science and Technologies.
                   </p>
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="item">
-              <div className="resume-item">
-                <div className="date">2012-2014</div>
-                <div className="name">
-                  Art Course <br />
-                  London
-                </div>
-                <div className="single-post-text">
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="item">
-              <div className="resume-item">
-                <div className="date">2010-2012</div>
-                <div className="name">
-                  Art Course <br />
-                  London
-                </div>
-                <div className="single-post-text">
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
+            
           </Swiper>
           {/* navigation */}
           <div className="navs">

@@ -29,12 +29,13 @@ const Pricing = () => {
                   <ul>
                     <li>Web Development</li>
                     <li>Advetising</li>
-                    <li>Game Development</li>
-                    <li className="disable">Music Writing</li>
-                    <li className="disable">Photography</li>
+                    <li>Blog post Development</li>
+                    <li className="disable">E-commerce website</li>
+                    <li className="disable">Android Application</li>
+                    <li className="disable">React Application application</li>
                   </ul>
                 </div>
-                <a href="#" className="btn">
+                <a href="https://www.fiverr.com/mh49trivedi" target="_blank" className="btn">
                   <span className="animated-button">
                     <span>Buy Now</span>
                   </span>
@@ -59,14 +60,13 @@ const Pricing = () => {
                   <ul>
                     <li>Web Development</li>
                     <li>Advetising</li>
-                    <li>Game Development</li>
-                    <li>Music Writing</li>
-                    <li>
-                      Photography <strong>new</strong>
-                    </li>
+                    <li>Blog post Development</li>
+                    <li>E-commerce website</li>
+                    <li>Android application</li>
+                    <li>React Application application</li>
                   </ul>
                 </div>
-                <a href="#" className="btn">
+                <a href="https://www.fiverr.com/mh49trivedi" target="_blank" className="btn">
                   <span className="animated-button">
                     <span>Buy Now</span>
                   </span>

@@ -8,7 +8,7 @@ const Contacts = () => {
           <div className="subtitle">Let's talk</div>
         </div>
         {/* contact form */}
-        <div className="contact-form">
+        {/* <div className="contact-form">
           <form id="cform" method="post">
             <div className="group-val">
               <div className="label">
@@ -52,34 +52,34 @@ const Contacts = () => {
           <div className="alert-success">
             <p>Thanks, your message is sent successfully.</p>
           </div>
-        </div>
+        </div> */}
         {/* contact info */}
         <div className="contact-info">
-          <div className="name">Joe Wilson</div>
-          <div className="subname">Consultant &amp; Mentor</div>
+          <div className="name">Roshan Trivedi</div>
+          <div className="subname">Web developer</div>
           <div className="info-list">
             <ul>
               <li>
-                <strong>Age:</strong> 24
+                <strong>Age:</strong> 30
               </li>
               <li>
-                <strong>Residence:</strong> USA
+                <strong>Residence:</strong> India
               </li>
               <li>
                 <strong>Freelance:</strong> Available
               </li>
               <li>
-                <strong>Address:</strong> San Francisco
+                <strong>Address:</strong> Gujarat,India
               </li>
               <li>
-                <strong>Phone:</strong> +1 256 254 84 56
+                <strong>Phone:</strong> +1 992 493 6750
               </li>
               <li>
-                <strong>E-mail:</strong> alejandroa@gmail.com
+                <strong>E-mail:</strong> 49roshan@gmail.com
               </li>
             </ul>
           </div>
-          <div className="author">Joe Wilson</div>
+          <div className="author">Roshan Trivedi</div>
         </div>
         <div className="clear" />
       </div>

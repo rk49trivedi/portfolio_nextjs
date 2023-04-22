@@ -12,28 +12,25 @@ const About = () => {
           <div className="col">
             <div className="single-post-text">
               <p>
-                Pellentesque posuere. Praesent turpis. Aenean posuere, tortor
-                sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin
-                urna dolor sagittis lacus.
+              Hi, I am a professional Web Developer and "Laravel,Codeigniter,PHP Export". 
+              I have 8+ years experience in laravel and PHP programming language. 
+              
               </p>
             </div>
           </div>
           <div className="col">
             <div className="single-post-text">
               <p>
-                Pellentesque posuere. Praesent turpis. Aenean posuere, tortor
-                sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin
-                urna dolor sagittis lacus.
+              I am here to assist or support you for any kind of website related problem. 
+              I also have experience about Wordpress and Wordpress plugin development. 
+              
               </p>
             </div>
           </div>
           <div className="col col-full">
             <div className="single-post-text">
               <p>
-                Pellentesque posuere. Praesent turpis. Aenean posuere, tortor
-                sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin
-                urna dolor sagittis lacus. Donec elit libero, sodales nec,
-                volutpat a, suscipit non, turpis.
+              If you have any kind of confusion then contact me on Fiverr.
               </p>
             </div>
           </div>
@@ -42,22 +39,22 @@ const About = () => {
         <div className="info-list">
           <ul>
             <li>
-              <strong>Age:</strong> 24
+              <strong>Age:</strong> 30
             </li>
             <li>
-              <strong>Residence:</strong> USA
+              <strong>Residence:</strong> India
             </li>
             <li>
               <strong>Freelance:</strong> Available
             </li>
             <li>
-              <strong>Address:</strong> San Francisco
+              <strong>Address:</strong> Gujarat
             </li>
             <li>
-              <strong>Phone:</strong> +1 256 254 84 56
+              <strong>Phone:</strong> +91 9924 936 750
             </li>
             <li>
-              <strong>E-mail:</strong> alejandroa@gmail.com
+              <strong>E-mail:</strong> 49roshan@gmail.com
             </li>
           </ul>
         </div>
