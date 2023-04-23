@@ -30,7 +30,7 @@ const Service = () => {
           <div className="service-col">
             <div className="service-item">
               <div className="icon">
-                <i className="icon fas fa-ad" />
+                <i className="icon fab fa-chrome" />
               </div>
               <div className="name">
                 Wordpress <br />
@@ -67,7 +67,7 @@ const Service = () => {
           <div className="service-col">
             <div className="service-item">
               <div className="icon">
-                <i className="icon fas fa-headphones" />
+                <i className="icon fab fa-chrome" />
               </div>
               <div className="name">
                 PHP web <br />
