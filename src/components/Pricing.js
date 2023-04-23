@@ -21,7 +21,7 @@ const Pricing = () => {
                 <div className="amount">
                   <span className="number">
                     <span className="dollar">$</span>
-                    <span>39</span>
+                    <span>15</span>
                     <span className="period">hour</span>
                   </span>
                 </div>
@@ -52,7 +52,7 @@ const Pricing = () => {
                 <div className="amount">
                   <span className="number">
                     <span className="dollar">$</span>
-                    <span>59</span>
+                    <span>25</span>
                     <span className="period">hour</span>
                   </span>
                 </div>
