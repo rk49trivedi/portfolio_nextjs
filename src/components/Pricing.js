@@ -74,7 +74,7 @@ const Pricing = () => {
                 </a>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="item">
+            {/* <SwiperSlide className="item">
               <div className="pricing-item">
                 <div className="icons">
                   <i className="fas fa-rocket" />
@@ -105,7 +105,7 @@ const Pricing = () => {
                   <i className="icon fas fa-chevron-right" />
                 </a>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
           {/* navigation */}
           <div className="navs">
