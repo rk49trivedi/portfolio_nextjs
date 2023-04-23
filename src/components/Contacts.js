@@ -72,7 +72,7 @@ const Contacts = () => {
                 <strong>Address:</strong> Gujarat,India
               </li>
               <li>
-                <strong>Phone:</strong> +1 992 493 6750
+                <strong>Phone:</strong> +91 992 493 6750
               </li>
               <li>
                 <strong>E-mail:</strong> 49roshan@gmail.com
